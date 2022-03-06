@@ -1,0 +1,17 @@
+{
+  "name": "theme-switch",
+  "license": "ISC",
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build --base=./",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "postcss-preset-env": "^7.4.2",
+    "vite": "^2.8.6"
+  }
+}
