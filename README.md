@@ -63,9 +63,39 @@ ref:
 
 # CSS
 
+## media queries
+
+There are `Media types` and `Media features`.
+
+`Media types` define the broad category of device for which the media query applies: all, print, screen. The type is optional (assumed to be all) except when using the not or only logical operators.
+
+`Media features` describe a specific characteristic of the user agent, output device, or environment.
+
+ex: only want to apply css for the devices which support `hover`
+
+```css
+@media (hover: hover) {
+  /* when hover is supported */
+}
+```
+
+## Scroll Snap
+
+CSS Scroll Snap is a module of CSS that introduces scroll snap positions, which enforce the scroll positions that a scroll container's scrollport may end at after a scrolling operation has completed.
+
+ref:
+
+- [MDN - CSS Scroll Snap](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap)
+
+## overscroll-behavior
+
+The `overscroll-behavior` CSS property sets what a browser does when reaching the boundary of a scrolling area. It's a shorthand for `overscroll-behavior-x` and `overscroll-behavior-y`.
+
+ref: [MDN - overscroll-behavior](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior)
+
 ## :focus-within
 
-Use `:focus-within` CSS pseudo-class to matche an element if the element or any of its descendants are focused.
+Use `:focus-within` CSS pseudo-class to match an element if the element or any of its descendants are focused.
 
 ref:
 
